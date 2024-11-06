@@ -1,1 +1,107 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>Välj och beställ din favorit burgare</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+        <header>
+            <h1 style="color:deeppink">Välkommen till BurgerOnline</h1>
+        </header>
+        <main>
+            <section>
+                <h2 style="color: darkgreen">Välj burgare</h2>
+                    <p>Under denna sektion väljer du vilken burgare du är sugen på</p>
+                    <ul>
+                        <li> Vegetariska alternativ (Halloumi/Bönor) finns för samtliga burgare</li>
+                    </ul>
+                <div style="display: inline-block">
+                    <h3> Jalapeno Dream </h3>
+                    <img src=https://www.chilitochoc.com/wp-content/uploads/2022/10/the-ultimate-cheeseburger-with-pickled-jalapenos-1.jpg style="width: 200px">
+                    <ul>
+                        <li> Mjölkfri</li>
+                        <li> Går att få glutenfri</li>
+                        <li> Ej rekommenderad för den som ogillar stark mat</li>
+                    </ull>
+                </div>
+                <div style="display: inline-block">
+                    <h3> Union Dream </h3>
+                    <img src=https://www.vindulge.com/wp-content/uploads/2021/03/Western-Burgers-featured-image.jpg style="width: 200px">
+                    <ul>
+                        <li> Mjölkfri</li>
+                        <li> Går att få glutenfri</li>
+                        <li> Ej rekommenderad för den som ogillar lök</li>
+                    </ull>
+                </div>
+                <div style="display: inline-block">
+                    <h3> Sugar Dream </h3>
+                    <img src=https://i.dailymail.co.uk/1s/2020/05/27/15/28886608-8361335-image-a-39_1590589896163.jpg style="width: 200px">
+                    <ul>
+                        <li> Innehåller mjölk</li>
+                        <li> Innehåller gluten</li>
+                        <li> VARNING: HÖGA HALTER SOCKER</li>
+                    </ull>
+                </div>
+                
+            
+            </section>
+
+            <section>
+                <h3>Kundinformation</h3>
+                    <p>Här ska du berätta lite om dig så att vi kan leverera burgaren till dig</p>
+                    <h4> Leverans information:</h4>
+                    <p>
+                        <label for="firstlastname">Namn</label><br>
+                        <input type="text" id="firstlastname" required="required" placeholder="För- och efternamn">
+                    </p>
+                    <p>
+                        <label for="email">Mail</label><br>
+                        <input type="email" id="email" required="required"  placeholder="Mail-adress">
+                    </p>
+                    <p>
+                        <label for="adress">Hemadress</label><br>
+                        <input type="text" id="adress" required="required" placeholder="Adress">
+                    </p>
+                    <p>
+                        <label for="housenumber">Husnummer</label><br>
+                        <input type="number" id="housenumber" required="required" placeholder="Siffra">
+                    </p>
+                    <p>
+                        <label for="payment"> Betalningsmetod: </label>
+                        <select id="payment">
+                            <option selected="selected"> Swish </option>
+                            <option> Betalkort </option>
+                            <option> PayPal </option>
+                            <option> Betala kontant när burgaren anländer</option>
+                        </select>
+                    </p>
+                    <h4>Kön:</h4>
+                    <p>
+                        <input type="radio" checked="checked" id="gender-female" name="kön" value="Kvinna" required="required">
+                        <label for="gender-female">Kvinna</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="gender-male" name="kön" value="Man" required="required">
+                        <label for="gender-male">Man</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="gender-else" name="kön" value="Annat" required="required">
+                        <label for="gender-else">Vill inte ange</label>
+
+                    </p>
+
+
+
+
+            </section>
+        </main>
+        <button type="submit">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm7t5zqPqRBGUPtyWk2_2YuuzXZ1Dl1Gx_uw&s" style="width:30px; height:30px">
+            Beställ!
+        </button>
+        <hr>
+        <footer>
+            &copy; Teas burgeria
+        </footer>
+   </body>
+</html>
