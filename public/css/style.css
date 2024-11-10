@@ -1,64 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
-    font-size: 12pt;
+    font-family:'Oswald', sans-serif;
 }
 
-p {
-    color: red;
-}
-
-h1 {
-    font-family: 'Agbalumo';
-    font-size: 36pt;
-}
-main, header, footer, nav ul {
-    max-width: 40rem;
-    margin: 0 auto 0 auto;
-}
-main {
-    background-color: bisque;
-}
-
-/* nav ul li {
-    display: inline-block;
-    background-color: grey;
-    padding: 1em;
-    margin: 1em;
-} */
-
-header {
-    background-image: url("../img/polacks.jpg");
-    background-size: cover;
+.whole-header{
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
     overflow: hidden;
+
+
+
+}
+
+#company-name{
+    position: absolute;
+   margin-top: -70px;
+        
+}
+
+#company-picture{
+    opacity: 0.7;
     width: 100%;
-    height: 200px;
-    opacity: 0.5;
-}
+    height: 100%;
 
-header h1 {
-    width:40rem;
-    margin: 0 auto;
-    text-align: center;
-}
 
-nav ul {
+    
+}
+.burgertypes{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 9.25em);
-    gap: 1em;
-    padding: 0;
+    grid-gap: 200px;
+    grid-template-columns: 200px 200px 200px;
+    background-color:black;
+    color: white;
+    padding: 10px;
+
 }
 
-nav li {
-    display: block;
-    background-color: grey;
-    padding: 1em;
+.burgertypes img{
+    width:250px;
+  
 }
 
-.Very-good {
-    color: green;
-}
-
-.Master {
-    color: green;
+.ingredient {
     font-weight: bold;
+    color:red;
+
+}
+
+#choice {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(169, 233, 72);
+    cursor: pointer;
+}
+
+button {  margin-left: 10px;
+        margin-bottom:30px;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+}
+
+section{
+   margin: 10px;
+    padding: 10px;
+    border: 5px dashed currentColor;
+  
 }
