@@ -9,8 +9,6 @@ body {
     height: 150px;
     overflow: hidden;
 
-
-
 }
 
 #company-picture{
@@ -22,8 +20,9 @@ body {
 
 #company-name{
     position: absolute;
-   margin-top: -150px;
-   margin-left: 350px;
+   top: 50px;
+   left:200px;
+   width:40em;
         
 }
 
