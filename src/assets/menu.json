@@ -1,21 +1,21 @@
 [{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "Jalapeno Dream", 
+    "kCal": 800, 
+    "url": "https://www.chilitochoc.com/wp-content/uploads/2022/10/the-ultimate-cheeseburger-with-pickled-jalapenos-1.jpg",
     "lactose": false, 
     "gluten": false
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
+    "name": "Union Dream", 
+    "kCal": 1000, 
+    "url": "https://www.vindulge.com/wp-content/uploads/2021/03/Western-Burgers-featured-image.jpg",
     "lactose": false, 
-    "gluten": false
+    "gluten": true
 },
 {
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
+    "name": "Sugar Dream", 
+    "kCal": 1300, 
+    "url": "https://i.dailymail.co.uk/1s/2020/05/27/15/28886608-8361335-image-a-39_1590589896163.jpg",
+    "lactose": true, 
+    "gluten": true
 }]
