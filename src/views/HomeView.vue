@@ -34,9 +34,9 @@
                             <label for="email">Mail</label><br>
                             <input type="email" id="email" v-model="customer.mail" required="required"  placeholder="Mail-adress">
                         </p>
+                        <p>Klicka på kartan där burgaren ska levereras</p>
                         <div id="container-map">
-                          <div id="map" v-on:click="setLocation">
-                            Välj vart burgaren ska levereras. Din adress markeras med T. 
+                          <div id="map" v-on:click="setLocation"> 
                           </div>
                           <div class="target" v-bind:style="{left: location.x + 'px', top: location.y + 'px', position: 'absolute'}">
                             T
@@ -191,7 +191,14 @@ body {
 
 }
 .target{
-  color:red;
+  font-family: Arial;
+  font-weight: bold;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  width:20px;
+  height:20px;
+  text-align: center;
 
 }
 .whole-header{
@@ -225,7 +232,7 @@ body {
     background-color:black;
     color: white;
     padding: 10px;
-
+    margin:30px;
 }
 
 .ingredient {
@@ -247,17 +254,20 @@ button:hover {
 button {  margin-left: 10px;
         margin-bottom:30px;
 }
-section div {
-    margin: 10px;
-    padding: 10px;
-}
-
 section{
-   margin: 10px;
+    margin:10px;
     padding: 10px;
     border: 5px dashed currentColor;
   
 }
+
+
+
+
+
+
+
+
 
 
 </style>

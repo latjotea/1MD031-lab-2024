@@ -73,7 +73,7 @@
     position: absolute;
     background: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     width:20px;
     height:20px;
     text-align: center;
