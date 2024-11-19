@@ -51,7 +51,6 @@ export default {
     width:200px;
   
 }
-/*/HUR SKA JAG FÅ MED DENNA/*/
 .ingredient {
     font-weight: bold;
     color:red;
